@@ -13,6 +13,9 @@
 		2DA65A3726E34F1B00247B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA65A3526E34F1B00247B1D /* Main.storyboard */; };
 		2DA65A3926E34F1D00247B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA65A3826E34F1D00247B1D /* Assets.xcassets */; };
 		2DA65A3C26E34F1D00247B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA65A3A26E34F1D00247B1D /* LaunchScreen.storyboard */; };
+		2DA65A4426E34F8F00247B1D /* QuestionAndAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA65A4326E34F8F00247B1D /* QuestionAndAnswer.swift */; };
+		2DA65A4626E3646F00247B1D /* QAndAPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA65A4526E3646F00247B1D /* QAndAPageViewController.swift */; };
+		2DA65A4826E3746200247B1D /* GradePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA65A4726E3746200247B1D /* GradePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2DA65A3826E34F1D00247B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DA65A3B26E34F1D00247B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DA65A3D26E34F1D00247B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA65A4326E34F8F00247B1D /* QuestionAndAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAndAnswer.swift; sourceTree = "<group>"; };
+		2DA65A4526E3646F00247B1D /* QAndAPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAndAPageViewController.swift; sourceTree = "<group>"; };
+		2DA65A4726E3746200247B1D /* GradePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		2DA65A2326E34F1B00247B1D = {
 			isa = PBXGroup;
 			children = (
+				2DA65A4326E34F8F00247B1D /* QuestionAndAnswer.swift */,
 				2DA65A2E26E34F1B00247B1D /* Swift Practice # 70 Middle Test */,
 				2DA65A2D26E34F1B00247B1D /* Products */,
 			);
@@ -58,11 +65,13 @@
 			children = (
 				2DA65A2F26E34F1B00247B1D /* AppDelegate.swift */,
 				2DA65A3126E34F1B00247B1D /* SceneDelegate.swift */,
-				2DA65A3326E34F1B00247B1D /* ViewController.swift */,
 				2DA65A3526E34F1B00247B1D /* Main.storyboard */,
+				2DA65A4526E3646F00247B1D /* QAndAPageViewController.swift */,
+				2DA65A4726E3746200247B1D /* GradePageViewController.swift */,
 				2DA65A3826E34F1D00247B1D /* Assets.xcassets */,
 				2DA65A3A26E34F1D00247B1D /* LaunchScreen.storyboard */,
 				2DA65A3D26E34F1D00247B1D /* Info.plist */,
+				2DA65A3326E34F1B00247B1D /* ViewController.swift */,
 			);
 			path = "Swift Practice # 70 Middle Test";
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DA65A3426E34F1B00247B1D /* ViewController.swift in Sources */,
+				2DA65A4426E34F8F00247B1D /* QuestionAndAnswer.swift in Sources */,
 				2DA65A3026E34F1B00247B1D /* AppDelegate.swift in Sources */,
+				2DA65A4826E3746200247B1D /* GradePageViewController.swift in Sources */,
 				2DA65A3226E34F1B00247B1D /* SceneDelegate.swift in Sources */,
+				2DA65A4626E3646F00247B1D /* QAndAPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
